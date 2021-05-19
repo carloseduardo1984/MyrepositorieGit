@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Test login"
+          }
+        ],
+        "line": 5,
+        "name": "Test login",
+        "description": "",
+        "id": "test-login;test-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6062577800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the shopping website",
+            "match": {
+              "location": "TC1.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2234306100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add an item to the basket",
+            "match": {
+              "location": "TC1.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159420400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the item in my basket",
+            "match": {
+              "location": "TC1.i_can_view_the_item_in_my_basket()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TEST_WOO-2"
+          }
+        ]
+      }
+    ],
+    "name": "Test login",
+    "description": "",
+    "id": "test-login",
+    "keyword": "Feature",
+    "uri": "WOO-2.feature"
+  }
+]
