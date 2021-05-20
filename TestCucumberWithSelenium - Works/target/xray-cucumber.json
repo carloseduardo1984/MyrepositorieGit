@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6062577800,
+              "duration": 5533132700,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 2234306100,
+              "duration": 2229404200,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 159420400,
+              "duration": 76504700,
               "status": "passed"
             },
             "line": 8,
@@ -65,6 +65,6 @@
     "description": "",
     "id": "test-login",
     "keyword": "Feature",
-    "uri": "WOO-2.feature"
+    "uri": "WOO-1.feature"
   }
 ]

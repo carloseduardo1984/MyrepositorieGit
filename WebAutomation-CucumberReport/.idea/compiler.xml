@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TestCucumberWithSelenium" />
-        <module name="TestCucumberWithSelenium - Copia" />
-        <module name="TestCucumberWithSelenium - Works" />
+        <module name="cucumber-extentsreport" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber-extentsreport" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.456304">
-<testcase classname="Test login" name="Test login" time="8.456304">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.839042">
+<testcase classname="Test login" name="Test login" time="7.839042">
 <system-out><![CDATA[Given that i am on the shopping website.....................................passed
 When i add an item to the basket............................................passed
 Then i can view the item in my basket.......................................passed

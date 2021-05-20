@@ -16,8 +16,8 @@ import cucumber.api.testng.TestNGCucumberRunner;
         features = "src/test/java/Features",
         glue = {"TestScenarios"},
         tags = {"~@Ignore"},
-        plugin= {"html:target/test-report","junit:target/junit-xml-report.xml","json:target/xray-cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
-        //plugin={"html:target/test-report","junit:target/junit-xml-report.xml","json:target/xray-cucumber.json"})
+        //plugin= {"html:target/test-report","junit:target/junit-xml-report.xml","json:target/xray-cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+        plugin={"html:target/test-report","junit:target/junit-xml-report.xml","json:target/xray-cucumber.json"})
 
 public class TestRun {
     private TestNGCucumberRunner testNGCucumberRunner;

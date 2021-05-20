@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("WOO-2.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("WOO-1.feature");
 formatter.feature({
   "line": 1,
   "name": "Test login",
@@ -45,21 +45,21 @@ formatter.match({
   "location": "TC1.that_i_am_on_the_shopping_website()"
 });
 formatter.result({
-  "duration": 6062577800,
+  "duration": 5533132700,
   "status": "passed"
 });
 formatter.match({
   "location": "TC1.i_add_an_item_to_the_basket()"
 });
 formatter.result({
-  "duration": 2234306100,
+  "duration": 2229404200,
   "status": "passed"
 });
 formatter.match({
   "location": "TC1.i_can_view_the_item_in_my_basket()"
 });
 formatter.result({
-  "duration": 159420400,
+  "duration": 76504700,
   "status": "passed"
 });
 });
