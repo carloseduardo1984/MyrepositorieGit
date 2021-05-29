@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/cucumber-core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/cucumber-java-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/cucumber-junit-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/extent-pdf-report-1.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/gherkin-6.0.17.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/hamcrest-core-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/junit-4-12_2.13-3.2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/mockito-3-4_2.13-3.2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/testng-7.4.0 (2).jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Cucumber-pkg/test-report-junit-xml-0.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/TEstLibs/Selenium-pkg/client-combined-3.141.59.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
