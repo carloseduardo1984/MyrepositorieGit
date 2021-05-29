@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.Test03_Groups_Noworks">
+        <methods>
+          <include name="tc02VerifyLaunchPage"/>
+          <include name="tc01LaunchURL"/>
+          <include name="tc05VerifyHyperlinks"/>
+          <include name="tc04VerifyLoggedInPage"/>
+          <include name="tc03EnterCredentials"/>
+        </methods>
+      </class> <!-- Tests.Test03_Groups_Noworks -->
+      <class name="Tests.Test05_MultipleSession">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="executeSessionTwo"/>
+          <include name="executSessionThree"/>
+        </methods>
+      </class> <!-- Tests.Test05_MultipleSession -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
