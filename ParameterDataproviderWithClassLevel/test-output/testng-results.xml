@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-30T09:08:25 GMT-03:00" name="Default suite" finished-at="2021-05-30T09:08:40 GMT-03:00" duration-ms="14720">
+    <groups>
+    </groups>
+    <test started-at="2021-05-30T09:08:25 GMT-03:00" name="Default test" finished-at="2021-05-30T09:08:40 GMT-03:00" duration-ms="14720">
+      <class name="parameters.ParameterDataproviderWithClassLevel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parameters.ParameterDataproviderWithClassLevel@a2431d0]" started-at="2021-05-30T09:08:25 GMT-03:00" name="setup" finished-at="2021-05-30T09:08:30 GMT-03:00" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMethod(java.lang.String,java.lang.String)[pri:0, instance:parameters.ParameterDataproviderWithClassLevel@a2431d0]" started-at="2021-05-30T09:08:30 GMT-03:00" name="testMethod" data-provider="SearchProvider" finished-at="2021-05-30T09:08:33 GMT-03:00" duration-ms="3106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String,java.lang.String)[pri:0, instance:parameters.ParameterDataproviderWithClassLevel@a2431d0]" started-at="2021-05-30T09:08:33 GMT-03:00" name="testMethod" data-provider="SearchProvider" finished-at="2021-05-30T09:08:37 GMT-03:00" duration-ms="3042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String,java.lang.String)[pri:0, instance:parameters.ParameterDataproviderWithClassLevel@a2431d0]" started-at="2021-05-30T09:08:37 GMT-03:00" name="testMethod" data-provider="SearchProvider" finished-at="2021-05-30T09:08:40 GMT-03:00" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- parameters.ParameterDataproviderWithClassLevel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
