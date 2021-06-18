@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-17T20:35:48Z" name="Group of group Suite" finished-at="2021-06-17T20:35:48Z" duration-ms="21">
+    <groups>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:example.RegularExpressionGroupTest@78452606]" name="testMethodOne" class="example.RegularExpressionGroupTest"/>
+      </group>
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:example.RegularExpressionGroupTest@78452606]" name="testMethodTwo" class="example.RegularExpressionGroupTest"/>
+      </group>
+    </groups>
+    <test started-at="2021-06-17T20:35:48Z" name="Group of group Test" finished-at="2021-06-17T20:35:48Z" duration-ms="21">
+      <class name="example.RegularExpressionGroupTest">
+        <test-method signature="testMethodOne()[pri:0, instance:example.RegularExpressionGroupTest@78452606]" started-at="2021-06-17T20:35:48Z" name="testMethodOne" finished-at="2021-06-17T20:35:48Z" duration-ms="5" status="PASS">
+        </test-method>
+        <test-method signature="testMethodTwo()[pri:0, instance:example.RegularExpressionGroupTest@78452606]" started-at="2021-06-17T20:35:48Z" name="testMethodTwo" finished-at="2021-06-17T20:35:48Z" duration-ms="0" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
