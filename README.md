@@ -1,4 +1,6 @@
-# MyrepositorieGit - A SQA group of great loessons to learn Quality Assurance Validations
+# MyrepositorieGit - A SQA group of great lessons to learn Quality Assurance Validations
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUÍDO&color=GREEN&style=for-the-badge)
 
 Lessons about Test practices with Selenium, JUnit, TestNG, BDD, and best practices for Software Testing.
 
